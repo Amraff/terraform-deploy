@@ -6,7 +6,7 @@ on:
 
 jobs: 
   deploy_infra: 
-    name: Install Ubuntu 
+    name: AWS Infra Deployment
     runs-on: ubuntu-latest 
     defaults: 
       run: 

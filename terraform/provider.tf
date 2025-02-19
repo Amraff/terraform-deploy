@@ -5,6 +5,11 @@ terraform {
       version = "5.87.0"
     }
   }
+backend "s3" {
+    bucket = "raff-2025-tf-statefile"
+    key = "devops/infrastructure/s3.tfstate"
+    region = "us-east-1"
+  }
 }
 
 provider "aws" {
