@@ -10,8 +10,6 @@ on:
         - apply
         - destroy
         required: true
-  push:
-    branches: [ "main" ]
 
 jobs:
   terraform:
