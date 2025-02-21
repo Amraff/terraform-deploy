@@ -1,7 +1,7 @@
 module "lambda_function" {
   source = "terraform-aws-modules/lambda/aws"
 
-  function_name = "my-lambda1"
+  function_name = "my-lambda2"
   description   = "My 50% cool lambda function"
   handler       = "index.lambda_handler"
   runtime       = "python3.12"
